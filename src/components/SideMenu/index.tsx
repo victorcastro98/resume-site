@@ -13,7 +13,7 @@ const SideMenu: React.FC = () => {
   ];
 
   return (
-    <div className="bg-menu h-full w-[20%] flex flex-col items-center justify-center">
+    <div className="bg-menu h-full w-[20%] flex-col hidden md:flex items-center justify-center">
       <div className="h-full flex flex-col items-center gap-9 justify-center">
         {list.map(({ link, title }) => {
           return (

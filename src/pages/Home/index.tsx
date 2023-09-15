@@ -9,13 +9,13 @@ import { useLanguage } from "../../context";
 const Home: React.FC = () => {
   const { language } = useLanguage();
   return (
-    <div className="flex flex-row gap-5 h-full items-center">
+    <div className="flex flex-col md:flex-row gap-5 h-full items-center">
       <div className="flex flex-col justify-between h-[70%]">
         <div className="flex flex-col gap-5">
           <div className="text-4xl font-semibold text-primary">
             {langs.text.text1[language]}
           </div>
-          <div className="text-lg w-[90%]">
+          <div className="text-lg w-[100%] md:w-[90%]">
             {langs.text.text2[language]}
             <span className="text-primary">Victor Castro de Carvalho</span>
             {langs.text.text3[language]}
@@ -49,7 +49,7 @@ const Home: React.FC = () => {
       <img
         src={image}
         alt="eu"
-        className="w-[40%] rounded-lg hover:translate-x-1 
+        className="hidden md:block w-[40%] rounded-lg hover:translate-x-1 
         transition-transform duration-300 ease-in-out"
       />
     </div>

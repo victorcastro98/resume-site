@@ -9,7 +9,7 @@ export const langs = {
       PT: "14/11/2021",
     },
     text1: {
-      ENG: "In November 2021 I joined QESH Technology as a frontend, since then I have worked on projects such as their ",
+      ENG: "In November 2021 I've joined QESH Technology as a frontend, since then I have worked on projects such as their ",
       PT: "Em novembro de 2021 entrei na QESH Technology como frontend, desde então, trabalho em projetos como seu ",
     },
     text2: {

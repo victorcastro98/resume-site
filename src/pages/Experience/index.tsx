@@ -24,7 +24,7 @@ const Experience: React.FC = () => {
         <div className="flex flex-col justify-evenly">
           <div className="flex flex-row gap-3 items-center">
             <div className="text-primary">{langs.text1.date[language]}</div>
-            <div className="rounded-full w-5 h-5 bg-primary" />
+            <div className="hidden md:block rounded-full w-5 h-5 bg-primary" />
             <div className="w-[80%]">
               {langs.text1.text1[language]}
               <a
@@ -40,7 +40,7 @@ const Experience: React.FC = () => {
           </div>
           <div className="flex flex-row gap-3 items-center">
             <div className="text-primary">{langs.text2.date[language]}</div>
-            <div className="rounded-full w-5 h-5 bg-primary" />
+            <div className="hidden md:block rounded-full w-5 h-5 bg-primary" />
             <div className="w-[80%]">{langs.text2.text[language]}</div>
           </div>
         </div>

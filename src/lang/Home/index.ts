@@ -2,14 +2,14 @@ export const langs = {
   text:{
     text1: {
       "ENG": 'Hey there!',
-      "PT": 'Ei você!'
+      "PT": 'Olá!'
     },
     text2: {
       "ENG": `I'm `,
       "PT": 'Meu nome é '
     },
     text3: {
-      "ENG": ', a 25 yers old ',
+      "ENG": ', a 25 years old ',
       "PT": ', tenho 25 anos e sou um desenvolvedor '
     },
     text4: {
@@ -26,7 +26,7 @@ export const langs = {
     },
     text7: {
       "ENG": 'amazing web experiences',
-      "PT": 'incríveis experiências web'
+      "PT": 'experiências web incríveis'
     },
   },
   bubble: {
