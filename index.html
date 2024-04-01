@@ -4,22 +4,39 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Victor Castro</title>
-    <link
-    href="./tailwind.css"
-    rel="stylesheet"
-    id="tailwindcss"
-  >
-  <script>
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    <title>Victor Castro - Web Developer and React Developer</title>
+    <meta name="title" content="Victor Castro - Web Developer and React Developer" />
+    <meta name="description" content="Victor Castro is a skilled web developer and React developer specializing in creating custom websites and applications. Get a free site budget today!" />
+    <link href="./tailwind.css" rel="stylesheet" id="tailwindcss" />
+    <script>
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-    document.getElementById('tailwindcss').addEventListener('load', () => {
-      document.body.classList.add(prefersDark ? 'dark' : 'light');
-    });
-  </script>
+      document.getElementById('tailwindcss').addEventListener('load', () => {
+        document.body.classList.add(prefersDark ? 'dark' : 'light');
+      });
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Victor Castro",
+      "url": "https://victor-castro.dev/",
+      "sameAs": [
+        "https://www.linkedin.com/in/victorcastro",
+        "https://github.com/victorcastro"
+      ],
+      "jobTitle": "Web Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Victor Castro Web Development"
+      }
+    }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <h1>Welcome to Victor Castro - Web Developer and React Developer</h1>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
