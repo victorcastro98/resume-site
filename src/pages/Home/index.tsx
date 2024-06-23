@@ -49,7 +49,7 @@ const Home: React.FC = () => {
       <img
         src={image}
         alt="eu"
-        className="hidden md:block w-[40%] rounded-lg hover:translate-x-1 
+        className="hidden md:block w-[40%] h-[90%] rounded-lg hover:translate-x-1 
         transition-transform duration-300 ease-in-out"
       />
     </div>
