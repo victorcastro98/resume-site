@@ -15,7 +15,7 @@ const Home: React.FC = () => {
           <div className="text-4xl font-semibold text-primary">
             {langs.text.text1[language]}
           </div>
-          <div className="text-lg w-[100%] md:w-[90%]">
+          <div className="text-lg md:w-[90%]">
             {langs.text.text2[language]}
             <span className="text-primary">Victor Castro de Carvalho</span>
             {langs.text.text3[language]}
@@ -49,7 +49,7 @@ const Home: React.FC = () => {
       <img
         src={image}
         alt="eu"
-        className="hidden md:block w-[40%] h-[90%] rounded-lg hover:translate-x-1 
+        className="hidden md:block w-[30%] h-[80%] rounded-lg hover:translate-x-1 
         transition-transform duration-300 ease-in-out"
       />
     </div>
