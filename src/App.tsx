@@ -11,6 +11,7 @@ function App() {
       <LanguageProvider>
         <div className="w-screen h-screen flex flex-row text-text">
           <SideMenu />
+          test
           <div className="w-full flex flex-col h-full items-center bg-background">
             <Header />
             <div className="p-6 h-screen">
